@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(22, 2, 109, 0.685);
+}
+
+.container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem;
+    border-radius: 1rem;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.title {
+    color: orange;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: white;
+    font-weight: 400;
+}
+
+#boxMensagem {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 50px 0px;
+}
+
+#boxMensagem span {
+    color: orange;
+}
+
+#btnMensagem {
+    padding: 10px 30px;
+    background: rgb(199, 129, 0);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+#btnMensagem:hover {
+    background-color: orange;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 2.5rem;
+    }
+}
